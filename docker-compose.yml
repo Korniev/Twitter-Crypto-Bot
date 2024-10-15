@@ -7,4 +7,5 @@ services:
       - .:/app
     environment:
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - X_BEARER_TOKEN=${X_BEARER_TOKEN}
     restart: always
