@@ -1,0 +1,10 @@
+version: '3'
+services:
+  twitter_bot:
+    build: .
+    container_name: twitter_crypto_bot
+    volumes:
+      - .:/app
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    restart: always
