@@ -159,6 +159,7 @@ def load_admins():
         return {}
 
 
+# Load admins
 admins = load_admins()
 
 
@@ -170,6 +171,7 @@ def load_selected_group():
         return {}
 
 
+# Load selected groups
 selected_groups = load_selected_group()
 
 
@@ -233,4 +235,5 @@ def run_twitter_scraper():
 twitter_thread = threading.Thread(target=run_twitter_scraper)
 twitter_thread.start()
 
+# Start the bot
 bot.polling(none_stop=True, timeout=123)
