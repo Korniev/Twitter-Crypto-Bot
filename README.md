@@ -1,5 +1,5 @@
 # Twitter-Crypto-Bot
-Twitter Scraper Telegram Bot for crypto enthusiasts!
+Twitter Scraper Telegram Bot for crypto enthusiasts!!
 
 1. Create a telegram bot
 2. Install requirements
