@@ -1,5 +1,6 @@
 # Twitter-Crypto-Bot
 Twitter Scraper Telegram Bot for crypto enthusiasts!
+
 1. Create a telegram bot
 2. Install requirements
 3. Create dashboard developer account on Twitter.
@@ -8,4 +9,5 @@ Twitter Scraper Telegram Bot for crypto enthusiasts!
 6. Add influencers to `influencers.json`
 7. Add enabled groups to `enabled_groups.json`
 8. Run docker-compose up
+
 Enjoy!
